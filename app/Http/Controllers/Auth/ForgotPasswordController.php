@@ -15,7 +15,7 @@ class ForgotPasswordController extends Controller
         $this->middleware('guest');
     }
 
-    protected function sendResetLinkResponse($response)
+    protected function sendResetLinkResponse(Request $request, $response)
     {
         return response()->json(['flash' => trans($response)]);
     }

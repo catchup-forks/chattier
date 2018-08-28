@@ -31,7 +31,7 @@ class ResetPasswordController extends Controller
         $user->save();
     }
 
-    protected function sendResetResponse($response)
+    protected function sendResetResponse(Request $request, $response)
     {
         $token = auth()->attempt(request()->only(['email', 'password']));
         $user = auth()->user();
