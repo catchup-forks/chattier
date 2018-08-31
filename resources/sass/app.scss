@@ -1,5 +1,5 @@
 // Material Design Icons
-@import "node_modules/@mdi/font/css/materialdesignicons.min";
+@import "node_modules/@mdi/font/scss/materialdesignicons";
 
 .mdi-spin-fast:before {
     animation: mdi-spin 0.5s infinite linear;
