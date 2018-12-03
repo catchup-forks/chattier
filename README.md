@@ -9,10 +9,6 @@ Chatty social network from Codecourse tutorial rebuilt from scratch as a single-
     - Buefy components
     - Bulmaswatch themes
 
-## Demo
-
-A live demo of this project can be found [here](https://raniesantos-chattier.herokuapp.com/?ref=github-readme).
-
 ## Setup
 
 - Start your local server. (Laravel Homestead, XAMPP/WAMP/MAMP, etc.)
